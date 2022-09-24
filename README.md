@@ -2,8 +2,8 @@
 
 ## A simple easy-to-use and customizable React component emulating a musical keyboard.
 
-Check out a live demo here: [Demo!](https://react-music-keyboard-demo.vercel.app/)
-Package repository: [react-music-keyboard](https://github.com/ryan-zhu-music/react-music-keyboard)
+#### Check out a live demo here: [Demo!](https://react-music-keyboard-demo.vercel.app/)
+#### Package repository: [react-music-keyboard](https://github.com/ryan-zhu-music/react-music-keyboard)
 ---
 
 ## Props:
