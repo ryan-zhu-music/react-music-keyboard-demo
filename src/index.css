@@ -22,7 +22,7 @@ code {
 
 .App-logo {
   filter: invert(30%);
-  filter: drop-shadow(0 0 20px rgb(169, 190, 230));
+  filter: drop-shadow(0 0 15px rgb(169, 190, 230));
 }
 
 @media (prefers-reduced-motion: no-preference) {

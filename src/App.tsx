@@ -16,10 +16,10 @@ function App() {
       }}
     >
       <header className="">
-        <div className="w-full h-1/3 flex items-center justify-center">
+        <div className="w-full h-1/4 flex items-center justify-center p-2">
           <img src={logo} className="App-logo h-full" alt="logo" />
         </div>
-        <div className="w-full h-1/6 flex flex-col items-center justify-center">
+        <div className="w-full h-1/4 flex flex-col items-center justify-center">
           <h1 className="text-4xl text-center text-slate-200 font-black p-5">
             react-music-keyboard
           </h1>
@@ -27,15 +27,15 @@ function App() {
             Selected key: {selectedKey}
           </p>
         </div>
-        <div className="w-full h-1/3 flex justify-center items-center ">
+        <div className="w-full h-1/4 flex justify-center items-center ">
           <Keyboard
             whiteKeyColor="#d1e0ff"
             blackKeyColor="#23365c"
             borderRadius={15}
-            height={150}
-            whiteKeyWidth={40}
-            blackKeyWidth={40}
-            blackKeyHeight={110}
+            height={100}
+            whiteKeyWidth={35}
+            blackKeyWidth={35}
+            blackKeyHeight={75}
             keySpacing={5}
             startNote="C3"
             endNote="C4"
@@ -51,7 +51,7 @@ function App() {
             containerClass="keyboard"
           />
         </div>
-        <div className="w-full h-1/6 flex flex-col items-center justify-center bg-transparent py-1">
+        <div className="w-full flex flex-col items-center justify-center bg-transparent py-1">
           <a
             className="text-md text-slate-200 flex flex-col items-center justify-center hover:text-slate-300 duration-100 mb-2"
             href="https://github.com/ryan-zhu-music/react-music-keyboard"
