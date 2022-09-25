@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-music-keyboard-demo/static/css/main.cff13e32.css",
+    "main.js": "/react-music-keyboard-demo/static/js/main.7cf1d839.js",
+    "static/js/787.32d215e9.chunk.js": "/react-music-keyboard-demo/static/js/787.32d215e9.chunk.js",
+    "static/media/logo.svg": "/react-music-keyboard-demo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-music-keyboard-demo/index.html",
+    "main.cff13e32.css.map": "/react-music-keyboard-demo/static/css/main.cff13e32.css.map",
+    "main.7cf1d839.js.map": "/react-music-keyboard-demo/static/js/main.7cf1d839.js.map",
+    "787.32d215e9.chunk.js.map": "/react-music-keyboard-demo/static/js/787.32d215e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cff13e32.css",
+    "static/js/main.7cf1d839.js"
+  ]
+}
