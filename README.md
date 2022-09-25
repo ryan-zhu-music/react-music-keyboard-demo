@@ -37,11 +37,4 @@
 
 The additional classes are useful for non-JS styles, e.g. `:hover`.
 
-Define the styles in a CSS file, and import it into your root HTML file (e.g. `index.html`, or a `<Head />` component). **Importing directly into a component will not work.**
-
-See the [demo](https://github.com/ryan-zhu-music/react-music-keyboard-demo) for an example of styling the `:hover` state of the keys.
-
-- `white-key`, `black-key`, and `keyboard` styles are defined in `/public/styles.css`.
-  - Note that the styles must use the `!important` flag.
-- `/public/styles.css` is imported into `/public/index.html`.
-- The classes are passed into the component as props, e.g. `<Keyboard whiteKeyClass="white-key" />`.
+Define the styles in a CSS file, and import it into your component file, but be sure to use the `!important` tag.
