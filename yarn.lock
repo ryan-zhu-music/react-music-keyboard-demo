@@ -7329,6 +7329,11 @@ react-is@^18.0.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
+react-music-keyboard@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-music-keyboard/-/react-music-keyboard-1.0.3.tgz#6eb14113a759e2eb7247ff4c7bde1a5542b36c52"
+  integrity sha512-x/MOhdTq9xt8N5ViF1cP3HqsiEVl0zt7GtU0y9xaS0GIoiMW6T6wkyN8BgoPCDDbHn6C4pAHxie1VYQ4fFtwYg==
+
 react-refresh@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.11.0.tgz#77198b944733f0f1f1a90e791de4541f9f074046"

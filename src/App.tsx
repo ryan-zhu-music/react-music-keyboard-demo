@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import logo from "./logo.svg";
 import { BsGithub } from "react-icons/bs";
-import Keyboard from "./components/keyboard";
+import { Keyboard } from "react-music-keyboard";
 
 function App() {
   const [selectedKey, setSelectedKey] = useState("");
 
   return (
     <main
-      className="w-screen h-screen flex flex-col justify-center items-center p-10"
+      className="w-screen h-screen flex flex-col justify-center items-center p-9"
       style={{
         background:
           "linear-gradient(117.92deg, #353776 4.93%, #5899C8 51.25%, #181A47 92.37%)",
@@ -46,17 +46,28 @@ function App() {
             containerStyles={{
               boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.25)",
             }}
+            blackKeyClass="black-key"
+            whiteKeyClass="white-key"
+            containerClass="keyboard"
           />
         </div>
-        <div className="w-full h-1/6 flex items-center justify-center">
+        <div className="w-full h-1/6 flex flex-col items-center justify-center bg-transparent py-1">
           <a
-            className="text-md text-slate-200 flex flex-col items-center justify-center"
+            className="text-md text-slate-200 flex flex-col items-center justify-center hover:text-slate-300 duration-100 mb-2"
             href="https://github.com/ryan-zhu-music/react-music-keyboard"
             target="_blank"
             rel="noopener noreferrer"
           >
             <p className="mb-2">A simple React Component by Ryan Zhu</p>
             <BsGithub color="#e2e8f0" size={30} />
+          </a>
+          <a
+            className="text-md font-bold uppercase bg-slate-200/40 rounded-full py-1 px-6 hover:scale-105 duration-300 ease-out text-slate-200"
+            href="https://www.npmjs.com/package/react-music-keyboard"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Install!
           </a>
         </div>
       </header>

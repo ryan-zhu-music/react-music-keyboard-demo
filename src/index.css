@@ -20,10 +20,6 @@ code {
     monospace;
 }
 
-.key:hover {
-  filter: invert(15%);
-}
-
 .App-logo {
   filter: invert(30%);
   filter: drop-shadow(0 0 20px rgb(169, 190, 230));
