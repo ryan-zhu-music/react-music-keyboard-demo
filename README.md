@@ -1,46 +1,32 @@
-# Getting Started with Create React App
+# react-music-keyboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## A simple easy-to-use and customizable React component emulating a musical keyboard.
 
-## Available Scripts
+#### Check out a live demo here: [Demo!](https://react-music-keyboard-demo.vercel.app/)
+#### Package repository: [react-music-keyboard](https://github.com/ryan-zhu-music/react-music-keyboard)
+---
 
-In the project directory, you can run:
+## Props:
 
-### `yarn start`
+| **Props**           | **Type**                | **Default** | **Description**                                                                             |
+| ------------------- | ----------------------- | ----------- | ------------------------------------------------------------------------------------------- |
+| **Height**          | number                  | 180         | The height of the keyboard in pixels.                                                       |
+| **whiteKeyWidth**   | number                  | 50          | The width of each white key in pixels.                                                      |
+| **blackKeyWidth**   | number                  | 20          | The width of each black key in pixels. Must not be greater than the width of a white key.   |
+| **keySpacing**      | number                  | 5           | The space between each white key in pixels.                                                 |
+| **startNote**       | string                  | "C2"        | The starting note: name + octave. Note that black keys use sharps, e.g. F#4 instead of Gb6. |
+| **endNote**         | string                  | "A4         | The ending note. Same format as the starting note. Must be higher than the starting note.   |
+| **onKeyPress**      | function                | (key) => {} | Function to execute when key is pressed. The key name is passed as the argument.            |
+| **borderRadius**    | number                  | 15          | Border radius of the keys                                                                   |
+| **whiteKeyColor**   | string (HEX color code) | "#fff"      | Fill color of the white keys.                                                               |
+| **blackKeyColor**   | string (HEX color code) | "#000"      | Fill color of the black keys.                                                               |
+| **transition**      | number                  | 100         | Transition speed between hover animation in milliseconds.                                   |
+| **whiteKeyStyles**  | object                  | {}          | Additional styles applied to white keys.                                                    |
+| **blackKeyStyles**  | object                  | {}          | Additional styles applied to black keys.                                                    |
+| **containerStyles** | object                  | {}          | Additional styles applied to the keyboard container.                                        |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Additional restrictions
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **All number props must be greater than 0.**
+- **Start and end notes must be white keys.**
+- **keySpacing must be between 1 and 10.**
