@@ -4,7 +4,7 @@
 
 #### Check out a live demo here: [Demo!](https://react-music-keyboard-demo.vercel.app/)
 
-#### Package repository: [react-music-keyboard](https://github.com/ryan-zhu-music/react-music-keyboard)
+#### Package repository: [react-music-keyboard](https://www.ryanzhu.com/react-music-keyboard/)
 
 ---
 
@@ -34,3 +34,11 @@
 - **All number props must be greater than 0.**
 - **Start and end notes must be white keys.**
 - **keySpacing must be between 1 and 10.**
+
+---
+
+### Using the additional classes
+
+The additional classes are useful for non-JS styles, e.g. `:hover`.
+
+Define the styles in a CSS file, and import it into your component file, but be sure to use the `!important` tag.
