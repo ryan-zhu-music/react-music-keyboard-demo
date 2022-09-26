@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Keyboard",
+  "name": "react-music-keyboard demo",
   "icons": [
     {
       "src": "favicon.ico",
