@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import logo from "./logo.svg";
 import { BsGithub } from "react-icons/bs";
-import { Keyboard } from "react-music-keyboard";
+// import { Keyboard } from "react-music-keyboard";
+import Keyboard from "./components/Keyboard";
 
 function App() {
   const [selectedKey, setSelectedKey] = useState("");
@@ -39,6 +40,8 @@ function App() {
             keySpacing={5}
             startNote="C3"
             endNote="C4"
+            sound={true}
+            duration={0.7}
             onKeyPress={(note) => {
               setSelectedKey(note);
             }}

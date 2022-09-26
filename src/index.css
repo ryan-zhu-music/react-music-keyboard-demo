@@ -25,6 +25,21 @@ code {
   filter: drop-shadow(0 0 15px rgb(169, 190, 230));
 }
 
+.black-key:hover {
+  background: rgb(90, 118, 171) !important;
+}
+
+.white-key:hover {
+  background: rgb(169, 186, 219) !important;
+}
+
+.keyboard {
+  transition: 0.4s all;
+}
+.keyboard:hover {
+  box-shadow: 0px 0px 20px 0px rgba(207, 223, 237, 0.75) !important;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 40s linear;
